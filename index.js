@@ -10,7 +10,7 @@ Symbol.iterator returning '@@iterator' in non es6 env
 
 */
 
-var polyfill = require('@dmail/object/polyfill');
+var polyfill = require('@dmail/polyfill');
 
 var HiddenSymbol = {
 	key: null,
